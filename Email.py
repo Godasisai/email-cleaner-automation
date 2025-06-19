@@ -6,8 +6,8 @@ from email.mime.text import MIMEText
 messages_df = pd.read_csv('messages.csv')
 
 # Gmail credentials
-gmail_user = 'naidugodasi751@gmail.com'              # Replace with your Gmail address
-gmail_password = 'zgkgpvdkobnvdeqa'        # Replace with your 16-character App Password
+gmail_user = 'add your e mail'              # Replace with your Gmail address
+gmail_password = 'add your app password'        # Replace with your 16-character App Password
 
 # Connect to Gmail SMTP server
 server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
